@@ -42,7 +42,7 @@
     </v-row>
 
     <v-row>
-      <v-col v-for="(drink, index) in items" :key="index" md="4">
+      <div v-for="(drink, index) in items" :key="index" class="col-sm-12 col-md-4">
         <v-card>
           <v-list-item>
             <v-list-item-content>
@@ -107,7 +107,7 @@
 
           </v-card-actions>
         </v-card>
-      </v-col>
+      </div>
     </v-row>
 
   </div>
